@@ -5,3 +5,10 @@ sudo systemctl enable linebot.service
 sudo systemctl start linebot.service
 
 sudo systemctl status linebot.service
+
+
+User=synex - synexユーザーとして実行します（実際のユーザー名に合わせて変更してください）
+WorkingDirectory - 作業ディレクトリを指定することで、相対パスが正しく解決されます
+Restart=on-failure - プログラムがクラッシュした場合に自動的に再起動します
+
+これで、システム起動時に自動的にLINE botのPythonスクリプトが実行されます。
