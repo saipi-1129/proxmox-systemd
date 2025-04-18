@@ -12,3 +12,4 @@ WorkingDirectory - 作業ディレクトリを指定することで、相対パ�
 Restart=on-failure - プログラムがクラッシュした場合に自動的に再起動します
 
 これで、システム起動時に自動的にLINE botのPythonスクリプトが実行されます。
+
