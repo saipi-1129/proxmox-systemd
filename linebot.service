@@ -5,8 +5,8 @@ After=network.target
 [Service]
 Type=simple
 User=synex
-WorkingDirectory=/home/synex/latest/linebot_test
-ExecStart=/usr/bin/python3 /home/synex/latest/linebot_test/main.py
+WorkingDirectory=/home/user/latest/linebot_test
+ExecStart=/usr/bin/python3 /home/user/latest/linebot_test/main.py
 Restart=on-failure
 
 [Install]
